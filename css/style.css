@@ -1,0 +1,173 @@
+/* For Phone */
+
+/* End */
+
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 90px;
+    /* border: 2px solid rgb(61, 151, 43); */
+    background-color: white;
+}
+.header .logo {
+    /* border: 2px solid blue; */
+    padding-right: 200px;
+}
+.header .logo h1 {
+    font-size: 30px;
+    color: rgba(78, 72, 72, 0.664);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .nav-items ul {
+    display: flex;
+}
+.header .nav-items ul li  {
+    list-style: none;
+}
+.header .nav-items ul li a {
+    text-decoration: none;
+    padding: 0 13px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header .search {
+    /* border: 2px solid  green; */
+    padding: 13px 40px;
+}
+.header .search img {
+    width: 20px;
+    height: 20px;
+}
+
+/* First section */
+
+#first-sec{
+    height: 500px;
+    background: url('../img/sec1-bg.jpg') center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#first-sec #sec-1_container {
+    display: flex;
+    width: 470px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+#first-sec #sec-1_container #element-1 {
+    text-align: center;
+    /* border: 2px solid rgb(34, 0, 128); */
+    color: white;
+    font-size: 4.0em;
+    font-family: 'Montserrat', sans-serif;
+}
+#first-sec #sec-1_container #element-2 {
+    text-align: center;
+    /* border: 2px solid rgb(128, 26, 0); */
+    margin: 10px 0;
+    color: white;   
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first-sec #sec-1_container #element-3 a:nth-child(1)  {
+    color: white;
+    border: 1px solid rgb(87, 84, 240);
+    background-color: rgb(87, 84, 240);
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#first-sec #sec-1_container #element-3 a:nth-child(1):hover {
+    background-color: rgb(63, 61, 199);
+}
+
+#first-sec #sec-1_container #element-3 a:nth-child(2) {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#first-sec #sec-1_container #element-3 a:nth-child(2):hover {
+    background-color: white;
+    color: black;
+}
+
+/* Second section */
+#second-sec{
+    height: 500px;
+    /* border: 2px solid red; */
+    
+}
+#second-sec #sec-2_container{
+
+    display: flex;
+    /* border: 2px solid red; */
+    
+}
+#second-sec #sec-2_container #sec-2_img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 60%;
+    
+}
+#second-sec #sec-2_container #sec-2_img1 img{
+    height: 90%;
+    width: 90%;
+    
+}
+#second-sec #sec-2_container #info{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+#second-sec #sec-2_container #info h3{
+    font-size: 2em;
+    
+}
+#second-sec #sec-2_container #info p{
+    color: rgb(97, 98, 100);
+    width: 80%;
+    
+}
+#second-sec #sec-2_container #info div{
+    padding: 35px 0;
+}
+#second-sec #sec-2_container #info div a{
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(87, 84, 240);
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 20px 62px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#second-sec #sec-2_container #info a:hover {
+    background-color: rgb(63, 61, 199);;
+}
